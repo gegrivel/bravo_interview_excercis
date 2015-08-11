@@ -7,6 +7,16 @@
     <groupId>grivel</groupId>
     <artifactId>bravofly_interw_ex</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <scm>
+        <connection>scm:git:git://github.com/gegrivel/bravo_interview_excercise.git:
+            scm:git:http://github.com/gegrivel/bravo_interview_excercise.git:
+            scm:git:https://github.com/gegrivel/bravo_interview_excercise.git:
+            scm:git:ssh://github.com/gegrivel/bravo_interview_excercise.git:/tags/REL_11082015
+        </connection>
+        <developerConnection>scm:svn:https://bolly.directline.italy/svn/repos/web/products/infrastructure/services-manager/tags/REL_11082015</developerConnection>
+        <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_11082015</url>
+    </scm>
     <build>
         <plugins>
             <plugin>
