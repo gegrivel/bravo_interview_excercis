@@ -4,7 +4,7 @@
 
     <groupId>grivel</groupId>
     <artifactId>bravofly_interw_ex</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
@@ -12,10 +12,10 @@
 
     <scm>
         <connection>
-            scm:git:https://github.com/gegrivel/bravo_interview_excercise.git
+            scm:git:https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL
         </connection>
-        <developerConnection>scm:svn:https://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
-        <url>https://github.com/gegrivel/bravo_interview_excercise.git</url>
+        <developerConnection>scm:svn:https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL</developerConnection>
+        <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL</url>
     </scm>
 
     <build>
