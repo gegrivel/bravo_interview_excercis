@@ -1,6 +1,5 @@
 package gg.bravo.model;
 
-import com.sun.org.apache.xalan.internal.xsltc.trax.TrAXFilter;
 import gg.bravo.constants.TaxesRates;
 import gg.bravo.enums.EnumExemptedCategory;
 import gg.bravo.enums.EnumItemCategory;
@@ -28,7 +27,7 @@ public abstract class Item {
         this.category=category;
         this.rawCost = rawCost;
         for(EnumExemptedCategory item :EnumExemptedCategory.values()){
-            if (item.getPropertyValue().equals(this.category.getPropertyValue()))
+            if (item.getCategoryName().equals(this.category.getCategoryName()))
                 baseTaxRate= TaxesRates.EXEMPTED_RATE;
         }
     }
@@ -53,7 +52,7 @@ public abstract class Item {
         this.category = category;
     }
 
-    private void setTotaleTaxes(double totaleTaxes) {
+    private void setTotalTaxes(double totaleTaxes) {
         this.totalTaxes = totaleTaxes;
     }
 

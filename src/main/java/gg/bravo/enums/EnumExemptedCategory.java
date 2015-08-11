@@ -9,14 +9,14 @@ public enum EnumExemptedCategory {
 
 FOOD(CategoryNameConstants.FOOD),MED_PRD(CategoryNameConstants.MED_PRD),BOOK(CategoryNameConstants.BOOK);
 
-    String propertyName;
+    String categoryName;
 
-    private EnumExemptedCategory(String propertyName) {
-        this.propertyName = propertyName;
+    private EnumExemptedCategory(String categoryName) {
+        this.categoryName = categoryName;
 
     }
 
-    public String getPropertyValue(){
-        return propertyName;
+    public String getCategoryName(){
+        return categoryName;
     }
 }

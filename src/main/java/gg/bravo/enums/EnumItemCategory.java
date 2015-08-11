@@ -10,15 +10,15 @@ public enum EnumItemCategory {
     FOOD(CategoryNameConstants.FOOD),MED_PRD(CategoryNameConstants.MED_PRD),BOOK(CategoryNameConstants.BOOK),
     OTHER(CategoryNameConstants.OTHER);
 
-    String propertyName;
+    String categoryName;
 
-    private EnumItemCategory(String propertyName) {
-        this.propertyName = propertyName;
+    private EnumItemCategory(String categoryName) {
+        this.categoryName = categoryName;
 
     }
 
-    public String getPropertyValue(){
-        return propertyName;
+    public String getCategoryName(){
+        return categoryName;
     }
 
 }
