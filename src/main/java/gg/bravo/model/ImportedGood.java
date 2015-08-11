@@ -1,5 +1,6 @@
 package gg.bravo.model;
 
+import gg.bravo.constants.TaxesRates;
 import gg.bravo.enums.EnumItemCategory;
 
 
@@ -12,7 +13,7 @@ public class ImportedGood extends Item{
 
     public ImportedGood(String description, EnumItemCategory category,double rawCost){
         super(description,category,rawCost);
-        importedGoodTaxRate=0.05;
+        importedGoodTaxRate= TaxesRates.IMPORT_RATE;
     }
 
     public double getBaseTaxRate() {
