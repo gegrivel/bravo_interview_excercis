@@ -31,6 +31,15 @@
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.2.2</version>
+                <configuration>
+                    <!-- majorVersion minorVersion incrementalVersion qualifier buildNumber -->
+                    <tagNameFormat>REL_${maven.build.timestamp}_${parsedVersion.incrementalVersion}</tagNameFormat>
+                </configuration>
+            </plugin>
 
         </plugins>
         <resources>
