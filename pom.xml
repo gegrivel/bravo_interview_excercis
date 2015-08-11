@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>grivel</groupId>
     <artifactId>bravofly_interw_ex</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <properties>
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
     </properties>
+
     <scm>
-        <connection>scm:git:git://github.com/gegrivel/bravo_interview_excercise.git:
+        <connection>
+            scm:git:git://github.com/gegrivel/bravo_interview_excercise.git:
             scm:git:http://github.com/gegrivel/bravo_interview_excercise.git:
             scm:git:https://github.com/gegrivel/bravo_interview_excercise.git:
-            scm:git:ssh://github.com/gegrivel/bravo_interview_excercise.git:/tags/REL_20150811_
+            scm:git:ssh://github.com/gegrivel/bravo_interview_excercise.git:
         </connection>
-        <developerConnection>scm:svn:https://bolly.directline.italy/svn/repos/web/products/infrastructure/services-manager/tags/REL_20150811_</developerConnection>
-        <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_</url>
+        <developerConnection>scm:svn:https://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
+        <url>https://github.com/gegrivel/bravo_interview_excercise.git</url>
     </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -36,19 +42,11 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.2</version>
                 <configuration>
-                    <tagNameFormat>REL_${maven.build.timestamp}_</tagNameFormat>
+                    <tagNameFormat>REL_${maven.build.timestamp}_GRIVEL</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
 
     </build>
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.8.8</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
 
 </project>
