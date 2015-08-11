@@ -38,7 +38,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.2</version>
                 <configuration>
-                    <tagNameFormat>REL_${maven.build.timestamp}_GRIVEL</tagNameFormat>
+                    <tagNameFormat>REL_${maven.build.timestamp}_GRIVEL_B</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
