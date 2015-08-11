@@ -51,11 +51,5 @@ public class BasketTest {
     }
 
 
-    @Test
-    public void print(){
-        String expeced ="\nInput 1:\r2 book at 10.00\n";
-        aBasket.printBasket();
-
-    }
 
 }
