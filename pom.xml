@@ -14,7 +14,7 @@
         <connection>
             scm:git:https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL
         </connection>
-        <developerConnection>scm:svn:https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL</developerConnection>
+        <developerConnection>scm:git:https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL</developerConnection>
         <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811_GRIVEL</url>
     </scm>
 
