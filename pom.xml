@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>grivel</groupId>
     <artifactId>bravofly_interw_ex</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+
+    <properties>
+        <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
+    </properties>
 
     <scm>
         <connection>scm:git:git://github.com/gegrivel/bravo_interview_excercise.git:
             scm:git:http://github.com/gegrivel/bravo_interview_excercise.git:
             scm:git:https://github.com/gegrivel/bravo_interview_excercise.git:
-            scm:git:ssh://github.com/gegrivel/bravo_interview_excercise.git:/tags/REL_11082015
+            scm:git:ssh://github.com/gegrivel/bravo_interview_excercise.git:/tags/REL_20150811
         </connection>
-        <developerConnection>scm:svn:https://bolly.directline.italy/svn/repos/web/products/infrastructure/services-manager/tags/REL_11082015</developerConnection>
-        <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_11082015</url>
+        <developerConnection>scm:svn:https://bolly.directline.italy/svn/repos/web/products/infrastructure/services-manager/tags/REL_20150811</developerConnection>
+        <url>https://github.com/gegrivel/bravo_interview_excercise.git/tags/REL_20150811</url>
     </scm>
     <build>
         <plugins>
@@ -36,8 +38,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.2</version>
                 <configuration>
-                    <!-- majorVersion minorVersion incrementalVersion qualifier buildNumber -->
-                    <tagNameFormat>REL_${maven.build.timestamp}_${parsedVersion.incrementalVersion}</tagNameFormat>
+                    <tagNameFormat>REL_${maven.build.timestamp}</tagNameFormat>
                 </configuration>
             </plugin>
 
