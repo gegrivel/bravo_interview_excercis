@@ -12,9 +12,9 @@
 
     <scm>
         <connection>
-            scm:git:https://github.com/gegrivel/bravo_interview_excercise.git
+            scm:git:git://github.com/gegrivel/bravo_interview_excercise.git
         </connection>
-        <developerConnection>scm:git:https://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
+        <developerConnection>scm:git:git://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
         <url>https://github.com/gegrivel/bravo_interview_excercise.git</url>
     </scm>
 
