@@ -4,7 +4,7 @@
 
     <groupId>grivel</groupId>
     <artifactId>bravofly_interw_ex</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
