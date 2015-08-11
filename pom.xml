@@ -12,9 +12,9 @@
 
     <scm>
         <connection>
-            scm:git:git://github.com/gegrivel/bravo_interview_excercise.git
+            scm:git:https://github.com/gegrivel/bravo_interview_excercise.git
         </connection>
-        <developerConnection>scm:git:git://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/gegrivel/bravo_interview_excercise.git</developerConnection>
         <url>https://github.com/gegrivel/bravo_interview_excercise.git</url>
     </scm>
 
@@ -38,7 +38,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2.2</version>
                 <configuration>
-                    <tagNameFormat>REL_${maven.build.timestamp}_GRIVEL_B</tagNameFormat>
+                    <tagNameFormat>REL_${maven.build.timestamp}_GRIVEL_C</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
